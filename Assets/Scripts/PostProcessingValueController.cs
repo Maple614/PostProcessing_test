@@ -32,7 +32,7 @@ public class PostProcessingValueController : MonoBehaviour
     public void ChangePostProcessValue(float value)
     {
         //FloatParameter floatParameter = new FloatParameter { value = slidervalue };
-
+        Debug.Log($"{m_Dof}");
         switch (sliderParameter)
         {
             case SliderParameter.FocusDistance:
